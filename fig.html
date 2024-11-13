@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="./style/style.css">
+    <!-- <link rel="style" href="./style/style.css"> -->
 </head>
 <body>
 
     <!-- Header Section -->
     <header>
-        <div class="container">
             <div class="logo">
                 <img src="../Assets/Logo.svg" alt="Nexcent Logo">
             </div>
             <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#service">Service</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#testimonial">Testimonials</a></li>
-                    <li><a href="#faq">FAQ</a></li>
+                <ul class="nav-links">
+                    <li><a href="home">Home</a></li>
+                    <li><a href="service">Service</a></li>
+                    <li><a href="features">Features</a></li>
+                    <li><a href="products">Products</a></li>
+                    <li><a href="testimonial">Testimonials</a></li>
+                    <li><a href="faq">FAQ</a></li>
                 </ul>
+               
             </nav>
-            <div class="cta-buttons">
+            <div class="signup-in">
                 <a href="#" class="login-btn">Log In</a>
-                <a href="#" class="signup-btn">Sign Up</a>
+                <button href="#" class="signup-btn">Sign Up</button>
             </div>
-        </div>
     </header>
 
     <!-- Hero Section -->
+     
+   <main class="container">
     <section class="hero">
-        <div class="container">
-            <h1>Lessons and insights from 8 years</h1>
+        <div class="hero-left">
+            <h1>Lessons and insights <br>
+            <span>from 8 years</span> </h1>
             <p>Where to grow your business as a photographer, writer or social media influencer</p>
             <a href="#" class="cta-btn">Register</a>
+        </div>
+        <div>
             <img src="../Assets/Illustration.svg" alt="Hero Image">
         </div>
     </section>
@@ -45,6 +54,7 @@
     <section class="clients">
         <div class="container">
             <h2>Our Clients</h2>
+            <p>We have been working with some Fortune +500 Clients <i class="fa-brands fa-facebook"></i></p>
             <div class="clients-logos">
                 <!-- Replace src with actual logos -->
                 <img src="../Assets/Logo.png" alt="Client 1">
@@ -60,8 +70,8 @@
 
     <!-- Services Section -->
     <section class="services">
-        <div class="container">
             <h2>Manage your entire community in a single system</h2>
+            <p>Who is Nexcent suitable for?</p>
             <div class="services-list">
                 <div class="service">
                     <img src="../Assets/Icon.svg" alt="Client 5">
@@ -70,16 +80,16 @@
                 </div>
                 <div class="service">
                     <img src="../Assets/Icon%20(1).svg" alt="Client 5">
-                    <h3>National Associations</h3>
+                    <h3>National <br>Associations</h3>
                     <p>Our membership management software provides full automation of membership renewals and payments.</p>
                 </div>
                 <div class="service">
                     <img src="../Assets/Icon%20(3).svg" alt="Client 5">
-                    <h3>Clubs And Groups</h3>
+                    <h3>Clubs And <br>Groups</h3>
                     <p>Our membership management software provides full automation of membership renewals and payments.</p>
                 </div>
             </div>
-        </div>
+        
     </section>
 
     <!-- Featured Content Section -->
@@ -180,6 +190,7 @@
         </div>
     </section><br>
 
+   </main>
     <!-- Footer Section -->
     <footer>
         <div class="container">

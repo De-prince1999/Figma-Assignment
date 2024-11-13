@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* font-family: 'Montserrat', sans-serif; */
+
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 40px 120px;
+    gap: 40px;
+    justify-content: space-between;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    padding: 10px 0;
+
+}
+
+nav ul li a {
+    padding: 10px;
+    color: black;
+}
+
+.signup-in {
+    width: 182px;
+}
+
+.signup-in button {
+    padding: 10px 20px;
+    background-color: #4caf4f;
+    border: none;
+    color: white;
+}
+
+.signup-in a {
+    width: 77px;
+    padding: 10px 20px;
+    color: #4caf4f;
+}
+
+main {
+    padding: 20px 120px;
+}
+
+main>.hero {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left {
+    width: 657px;
+    height: 276px;
+}
+
+.hero-left h1 {
+    font-size: 64px;
+    line-height: 76px;
+    width: 657px;
+
+}
+
+.hero-left>h1 span {
+    color: #4caf4f;
+}
+
+.hero-left p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    margin-bottom: 30px;
+}
+
+.hero-left a {
+    width: 128px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: #4caf4f;
+    color: white;
+    padding: 14px 32px;
+    gap: 10px;
+}
+
+.clients {
+    padding: 30px 0px;
+}
+
+.container h2 {
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 10px 0;
+}
+.clients-logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.services h2 {
+text-align: center;
+font-size: 36px;
+line-height: 44px;
+width: 542px;
+margin: 0 auto;
+}
+.services p{
+    text-align: center;
+    color: #717171;
+    font-size: 16px;
+    line-height: 24px;
+}
+.services-list {
+    display: flex;
+
+}
+.service {
+    text-align: center;
+    max-width: 250px;
+}
+
+.service h3 {
+    color: #333;
+    margin: 10px 0;
+}
+
+.service p {
+    color: #666;
+}
+
+/* Featured Content Section */
+.featured-content {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.featured-content h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.learn-more {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+/* Statistics Section */
+.statistics {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.statistics h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    color: #333;
+    margin: 20px 10px;
+}
+
+/* Article Section */
+.article {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.article img {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.article-content h2 {
+    color: #333;
+}
+
+.article-content p {
+    color: #666;
+}
+
+.learn-more {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+/* Tim Smith Section */
+.Timsmith {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.Timsmith .article-content {
+    margin-left: 20px;
+}
+
+.Timsmith .clients-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Blog Section */
+.blog {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.blog h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.post {
+    max-width: 250px;
+    text-align: center;
+}
+
+.post h3 {
+    color: #333;
+    margin: 10px 0;
+}
+
+.read-more {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+/* Call to Action */
+.call-to-action {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.call-to-action h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-logo img {
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.newsletter form {
+    display: flex;
+}
+
+.newsletter input {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
