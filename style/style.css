@@ -14,15 +14,16 @@ body {
 
 header {
     display: flex;
-    padding: 40px 120px;
-    gap: 40px;
     justify-content: space-between;
-
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
 }
 
 nav>ul {
@@ -36,6 +37,10 @@ nav ul li a {
     color: black;
 }
 
+. nav ul li a:hover
+    color: #4caf4f;{
+
+}
 .signup-in {
     width: 182px;
 }
@@ -98,46 +103,89 @@ main>.hero {
 }
 
 .clients {
-    padding: 30px 0px;
+    padding: 70px 0px;
 }
 
-.container h2 {
+.container-contain {
+    background-color: white;
+    color: black;
+    padding: 14px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.container-containh2 {
     font-size: 32px;
     line-height: 44px;
-    text-align: center;
+    align-content: center;
+
 }
 
 .container p {
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
-    padding: 10px 0;
+    padding: 30px 0;
+
 }
+
+.learn-more {
+    border: 2px solid green;
+    width: Hug (151px)px;
+    height: Hug (52px)px;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 4px;
+    text-decoration: none;
+
+}
+
+.container11 {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.learn-more {
+    border: none;
+}
+
 .clients-logos {
     display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
+   justify-content: space-between;
 }
+
 .services h2 {
-text-align: center;
-font-size: 36px;
-line-height: 44px;
-width: 542px;
-margin: 0 auto;
+    text-align: center;
+    font-size: 36px;
+    line-height: 44px;
+    width: 542px;
+    margin: 0 auto;
 }
-.services p{
+
+.services p {
     text-align: center;
     color: #717171;
     font-size: 16px;
     line-height: 24px;
 }
+
 .services-list {
     display: flex;
 
 }
+
 .service {
     text-align: center;
-    max-width: 250px;
+    width: 1440px;
+    gap: 16px;
+
 }
 
 .service h3 {
@@ -150,19 +198,22 @@ margin: 0 auto;
 }
 
 /* Featured Content Section */
-.featured-content {
-    padding: 60px 0;
-    text-align: center;
-}
+.feature {
+display: flex;
+align-items: center;
+padding: 0 10px;
 
-.featured-content h3 {
+
+}
+.container11 h3 {
     color: #333;
-    margin-bottom: 10px;
+   
 }
 
 .learn-more {
     color: #5cb85c;
     text-decoration: none;
+    background-color: ;
 }
 
 /* Statistics Section */
@@ -283,22 +334,17 @@ margin: 0 auto;
     text-decoration: none;
 }
 
-/* Footer */
+/* Footer Section */
 footer {
     background-color: #333;
-    color: #fff;
-    padding: 40px 0;
+    color: white;
+    padding: 40px 10%;
     text-align: center;
-}
-
-.footer-logo img {
-    margin-bottom: 20px;
 }
 
 .footer-links {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .footer-links h4 {
@@ -311,12 +357,12 @@ footer {
 }
 
 .footer-links a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
-.newsletter form {
-    display: flex;
+.footer-links a:hover {
+    color: #4caf4f;
 }
 
 .newsletter input {
@@ -327,8 +373,8 @@ footer {
 
 .newsletter button {
     padding: 10px;
-    background-color: #5cb85c;
-    color: #fff;
+    background-color: #4caf4f;
+    color: white;
     border: none;
     border-radius: 0 5px 5px 0;
 }
